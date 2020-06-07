@@ -1,5 +1,4 @@
 # HTML CSS
 
-* [Arrows](arrows.html)
-<br>
+- [Arrows](arrows.html)
 ![arrows](images/arrows.png?raw=true)
