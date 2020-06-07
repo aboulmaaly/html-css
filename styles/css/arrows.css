@@ -1,0 +1,82 @@
+*{
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+}
+.arrows{
+    width: 430px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.arrows__1, .arrows__2, .arrows__3, .arrows__4{
+    padding: 5px;
+    border: 1px solid #626567;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+}
+
+/* arrows__1 */
+
+.card1__1{
+    background: linear-gradient(-45deg, #21618c 0 50%, #fff 50% 100%);
+}
+.card1__6, .card1__8, .card1__11, .card1__12, .card1__14, .card1__15, .card1__16{
+    background-color: #21618c;
+}
+.card1__2, .card1__7{
+    background: linear-gradient(45deg, #21618c 0 50%, #fff 50% 100%);
+}
+.card1__5, .card1__10{
+    background: linear-gradient(45deg, #fff 0 50%, #21618c 50% 100%);
+}
+
+/* arrows__2 */
+
+.card2__4{
+    background: linear-gradient(45deg, #21618c 0 50%, #fff 50% 100%);
+}
+.card2__5, .card2__7, .card2__9, .card2__10, .card2__13, .card2__14, .card2__15{
+    background-color: #21618c;
+}
+.card2__3, .card2__6{
+    background: linear-gradient(-45deg, #21618c 0 50%, #fff 50% 100%);
+}
+.card2__8, .card2__11{
+    background: linear-gradient(-45deg, #fff 0 50%, #21618c 50% 100%);
+}
+
+/* arrows__3 */
+
+.card3__13{
+    background: linear-gradient(45deg, #fff 0 50%, #21618c 50% 100%);
+}
+.card3__2, .card3__3, .card3__4, .card3__7, .card3__8, .card3__10, .card3__12{
+    background-color: #21618c;
+}
+.card3__6, .card3__9{
+    background: linear-gradient(-45deg, #21618c 0 50%, #fff 50% 100%);
+}
+.card3__11, .card3__14{
+    background: linear-gradient(-45deg, #fff 0 50%, #21618c 50% 100%);
+}
+
+/* arrows__4 */
+
+.card4__16{
+    background: linear-gradient(-45deg, #fff 0 50%, #21618c 50% 100%);
+}
+.card4__1, .card4__2, .card4__3, .card4__5, .card4__6, .card4__9, .card4__11{
+    background-color: #21618c;
+}
+.card4__7, .card4__12{
+    background: linear-gradient(45deg, #21618c 0 50%, #fff 50% 100%);
+}
+.card4__10, .card4__15{
+    background: linear-gradient(45deg, #fff 0 50%, #21618c 50% 100%);
+}
